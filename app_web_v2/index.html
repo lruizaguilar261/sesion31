@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Página de inicio</title>
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	</head>
+
+	<body>
+		<nav class="nav-wrapper">
+			<a href="#" class="brand-logo">INICIO</a>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<h3 class="center-align">Página de inicio</h3>
+				<div class="col s12">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem fuga necessitatibus itaque eligendi veritatis, nulla quam perferendis labore maxime deserunt laboriosam eius adipisci autem nobis rerum corporis sequi minus velit.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<h3 class="center-align">Formulario web</h3>
+					<div class="card-panel col s8 offset-s2">
+						<form class="col s12" method="POST" action="http://localhost/app_web_v2/php/script_index.php">
+							<div class="row">
+								<div class="input-field">
+									<input type="text" name="txtNombre" id="txtNombre" class="validate" required="">
+									<label for="txtNombre">Nombre:</label>
+								</div>
+								<div class="input-field">
+									<textarea name="txtComentario" id="txtComentario" class="materialize-textarea" required=""></textarea>
+									<label for="txtComentario">Comentario</label>
+								</div>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn waves-effect waves-light col s4 offset-s4" id="btnEnviar">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+	</body>
+</html>
